@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+
+            *{padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            }
+        body{font-family: Arial, Helvetica, sans-serif;}
+
+        .container{max-width: 1200px;
+            width: 90%;
+            margin: auto;}
+
+            /* background-color: rgba(250, 119, 54, 0.887);} */
+
+
+            /* navbar part */
+
+
+.navbar-container{display: flex;
+ justify-content: space-between;
+align-items: center;}
+
+.navbar-container ul {display: flex;}
+.navbar-container li{list-style: none;
+margin-right: 20px;
+padding: 10px;
+cursor: pointer;
+font-weight: bolder;}
+
+ul li:nth-child(3){background-color :rgba(250, 119, 54, 0.887);
+color: aliceblue;}
+        
+.s1 .logo span{color: rgba(250, 119, 54, 0.887);}           
+
+
+        /* s1-part */
+        .s1{width: 100%;
+            height: 90vh;
+            background: url("./images/header_bg.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            max-width: 100vw;}
+
+        .s1-container{display: flex;
+            justify-content: space-between;
+            
+            align-items: center;
+            }
+
+            /* s1-img part */
+
+        .s1-img{height: 500px;
+            margin-top: 54px;
+            width: 40%;}
+
+        .s1-img img{height: 100%;
+            }
+
+        
+            
+
+    
+            /* s1-text part */
+.s1-text h1,h2,p{margin-bottom: 10px;} 
+
+.s1-text a{text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgba(250, 119, 54, 0.887);
+    padding: 10px;
+    margin-left: 5px;
+    font-weight: bolder;}
+        
+
+
+    /* s2-location part */
+
+    .s2{background-color:  rgba(155, 113, 52, 0.071);
+        width: 80%;
+        margin-top: 50px;
+        padding: 30px;
+        margin-bottom: 80px;
+        }
+
+
+    .s2-container h2{text-align: center;
+        padding-top: 40px;}
+    .s2-container p{text-align: center;
+    margin-bottom: 40px;}
+
+    .s2-location{display: flex;
+    
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+    }
+
+
+    .s2-location h4{text-align: center;
+}
+
+    .s2-location span{display: block;
+        text-align: center;
+        font-weight: 200;    
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="s1">
+
+        <div class="navbar">
+
+            <div class="navbar-container  container">
+                
+                <h2 class="logo">Ab<span>d</span>ur</h2>
+                <ul>
+                    <li>Portfolio</li>
+
+                    <li>Blog</li>
+                    <li>Hire Me</li>
+                </ul>
+            </div>
+
+        </div>
+
+    <div class="s1-container container">
+
+
+
+        <div class="s1-text">
+            <h1>Hi, I am </h1>
+            <h2>Abdur Rahim</h2>
+            <p>This is the first project of Programming hero
+                with html and css 
+            </p>
+            <a href="">
+                Learn More
+            </a>
+            <a href="">
+                Contact
+            </a>
+            
+        </div>
+
+        <div class="s1-img">
+            <img src="./images/hardy.png">
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="s2 container">
+    
+    <div class="s2-container container">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et assumenda impedit vero exercitationem fugiat facilis inventore, iste soluta aspernatur quibusdam? Qui quas distinctio suscipit minima amet maxime a eveniet, molestiae, est</p>
+        <div class="s2-location">
+            <h4>Name :<span>Abdur Rahim</span></h4>
+            <h4>Email :<span>info@gmail.com</span></h4>
+            <h4>Location :<span>Chittagong,BD</span></h4>
+            <h4>Specialty:<span>Web Dev</span></h4>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
